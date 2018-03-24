@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .rebar3
 _*
 .eunit
@@ -16,3 +17,15 @@ _build
 .idea
 *.iml
 rebar3.crashdump
+=======
+.eunit
+deps
+*.o
+*.beam
+*.plt
+erl_crash.dump
+ebin/*.beam
+rel/example_project
+.concrete/DEV_MODE
+.rebar
+>>>>>>> f7c84f75a1d138e810c3c23914e674f541134232
